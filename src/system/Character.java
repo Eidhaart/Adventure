@@ -30,13 +30,12 @@ public class Character {
 
     @Override
     public String toString() {
-        return "Character{" +
-                "name='" + name + '\'' +
-                ", level=" + level +
-                ", hp=" + hp +
-                ", ac=" + ac +
-                ", characterClass='" + characterClass + '\'' +
-                ", characterRace='" + characterRace + '\'' +
-                '}';
+        return "Character:\n" +
+                "Name = " + name +
+                "\nLevel = " + level +
+                "\nHp = " + hp +
+                "\nAc = " + ac +
+                "\nClass = " + characterClass +
+                "\nRace = " + characterRace ;
     }
 }
