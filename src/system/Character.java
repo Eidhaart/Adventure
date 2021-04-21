@@ -1,5 +1,6 @@
 package system;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Character {
@@ -23,9 +24,8 @@ public class Character {
 
     }
 
-    public void displayInv() {
-        System.out.println(inventory.getArmor());
-        System.out.println(inventory.getWeapon());
+    public void displayInv() throws IOException {
+        System.out.println(inventory.weaponToString());
     }
 
     @Override
