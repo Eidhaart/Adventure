@@ -9,5 +9,6 @@ public class Main {
         Character character = new Character();
         System.out.println(character);
         character.displayInv();
+        character.determineAllAbilityScores();
     }
 }
