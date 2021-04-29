@@ -6,9 +6,12 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
 
-        Character character = new Character();
-        System.out.println(character);
-        character.displayInv();
-        character.determineAllAbilityScores();
+        CharacterCreation newChar = new CharacterCreation();
+        System.out.println(newChar);
+        newChar.determineAllAbilityScores();
+        newChar.displayInv();
+
+
+
     }
 }

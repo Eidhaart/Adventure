@@ -1,1 +1,3 @@
 Two_Handed_Sword 2H 1d8 Cutting
+Scimitar 1H 1d6 Cutting
+Dagger 1h 1d4 Cutting
